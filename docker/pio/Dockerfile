@@ -18,7 +18,7 @@
 FROM openjdk:8
 
 ARG PIO_GIT_URL=https://github.com/steve-1820/predictionio.git
-ARG PIO_TAG=v0.13.0
+ARG PIO_TAG=develop
 ENV SCALA_VERSION=2.11.12
 ENV SPARK_VERSION=2.2.3
 ENV HADOOP_VERSION=2.7.7
